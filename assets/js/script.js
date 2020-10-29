@@ -16,7 +16,10 @@ document.getElementById('form')
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
+      const name =  document.getElementById("from_name").value = "";
+       const email = document.getElementById("to_email").value = "";
+       const message = document.getElementById("message").value = "";
+      btn.value = 'Enviado';
       Swal.fire(
   'Enviado correctamente!',
   'Preciona!',
