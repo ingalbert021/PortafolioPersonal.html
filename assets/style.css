@@ -732,6 +732,11 @@ margin-left: 5px;
 
 }
 @media (max-width: 378px){
+
+
+	.text-wrapper .letters{
+		font-size: 13px
+	}
 	.contact-form .contac-input-text {
 		margin-left: 125px;
 	}
