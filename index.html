@@ -1,30 +1,19 @@
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-<!--este script de abajo es para cargar el jquery-->
-    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>   
+<!--jquery desde enlace via internet-->
 
-    
-    <!--este script de abajo es para cargar el jquery-ui-->
- <link rel="stylesheet" href="assets/js/jquery-ui-1.12.1/jquery-ui.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 
-   
-   <link rel="stylesheet" href="assets/js/jquery-ui-1.12.1/jquery-ui.min.css">
-    
-     <link rel="stylesheet" href="assets/js/jquery-ui-1.12.1/jquery-ui.structure.css">   
-     
-      <link rel="stylesheet" href="assets/js/jquery-ui-1.12.1/jquery-ui.structure.min.css"> 
-       
-       <link rel="stylesheet" href="assets/js/jquery-ui-1.12.1/jquery-ui.theme.css"> 
-       
-       <link rel="stylesheet" href="assets/js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+
+<!--slider-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,13 +21,13 @@
 
 					
 					<!--javascript-->
-  <script type="text/javascript" src="assets/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
 
   <!--text animacion-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  
-  <script type="text/javascript" src="assets/js/jquery-ui-1.12.1/jquery-ui.js"></script>
 
+
+<!---alert--->
  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 
@@ -47,6 +36,10 @@
 				<!--estylo-->
 		<link rel="stylesheet" href="./assets/style.css">
 
+
+<!---tipo de letra--->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
 
 	<title>Portafolio Personal website </title>
 
@@ -96,7 +89,7 @@
 			
 					<h1 class="ml6">
   		<span class="text-wrapper">
-    			<span class="letters">desarrollador  Web</span>
+    			<span class="letters">desarrollador  backend</span>
   			</span>
 					</h1>
 
@@ -161,7 +154,7 @@ Deseo obtener un puesto de backend JavaScript  donde mi experiencia única y cre
  <br>
          <br>
          <div class="bottom">
-					<a href="https://drive.google.com/file/d/11wATzLTuNzMK61qlSp58jt3V80oyq7Ne/view?usp=sharing" class="btn" target="_blank">Descarga mi CV</a>
+		<a href="https://drive.google.com/file/d/1DDmyIZFJDwiCyLPCH1v1Fs03ciZdNzqW/view?usp=sharing" class="btn" target="_blank">Descarga mi CV</a>
 				</div>
      </div>
 		<ul class="skills-wrapper">
@@ -325,79 +318,29 @@ Deseo obtener un puesto de backend JavaScript  donde mi experiencia única y cre
 		</a>
 	</section>
 
-	<section class="works">
-		<header>
+	<header>
 			<a name="Portafolio">
 			<h1 class="title-underline">
 				<span><strong>Portafolio</strong></span>
 			</h1>
 		</header>
-		<div class="works-wrapper">
-			<article class="works-item">
-				<div class="works-img-container">
-					<img src="assets/img/work1.png" height="180px" alt="desarrollo web" class="works-item-img"/>
-				</div>
-			
-			<div class="works-item-description">
-				<header>
-					<h1 class="work-item-title">blog</h1>
-				</header>
-			
-				<div class="text-center articulo">
-					<a href="https://ingalbert021.github.io/blog.github.io/"  class="btn"  target="_blank">Visita mi web</a>
-				</div>
 
-		</div>
-			
-			</article>
-<article class="works-item">
-				<div class="works-img-container">
-					<img src="assets/img/5.png" height="180px" alt="desarrollo web" class="works-item-img"/>
-				</div>
-			
-			<div class="works-item-description">
-				<header>
-					<h1 class="work-item-title">Identicador de imagenes</h1>
-				</header>
-			
-				<div class="text-center articulo">
-					<a href="https://ingalbert021.github.io/inteligencia/" class="btn"  target="_blank">Visita mi web</a>
-				</div>
+<!--slider-->
+<div id="slider">
+    <div class="bxslider">
+
+        <div><a href="https://ingalbert021.github.io/inteligencia/" target="_blank"><img class="image-slider" src="./assets/img/5.png" title="Identificador De Imagenes"></a></div>
+        
+        <div><a href="https://ingalbert021.github.io/BlogVideosjuegos/" target="_blank"><img class="image-slider" src="./assets/img/blogvj.png" title="Blog de Videos juegos"></a></div>
 
 
+        <div><a href="https://ingalbert021.github.io/blog.github.io/" target="_blank"><img class="image-slider" src="./assets/img/work1.png" title="Blog De Peliculas"></a></div>
 
+        <div><a href="https://ingalbert021.github.io/Identificador-de-Dibujos/" target="_blank"><img class="image-slider" src="./assets/img/work2.png" title="Identificador de Dibujos"></a></div>
 
+      </div>
+</div>
 
-			</div>
-			
-			</article>
-			
-				<article class="works-item">
-				<div class="works-img-container">
-					<img src="./assets/img/blogvj.png" height="180px" alt="desarrollo web" class="works-item-img"/>
-				</div>
-			
-			<div class="works-item-description">
-				<header>
-					<h1 class="work-item-title">Blog de Videos juegos</h1>
-				</header>
-			
-				<div class="text-center articulo">
-					<a href="https://ingalbert021.github.io/BlogVideosjuegos/" class="btn"  target="_blank">Visita mi web</a>
-				</div>
-
-
-
-
-
-			</div>
-			
-			</article>
-
-			
-		</div>
-		</a>
-	</section>
 
 		<header>
 			 <a name="contacto"> 
@@ -460,9 +403,6 @@ Deseo obtener un puesto de backend JavaScript  donde mi experiencia única y cre
   emailjs.init('user_JCsxjlOoRVBBA3oCFLrby')
 </script>
 
-<script>
-  
-</script>
 
 
 			
@@ -503,11 +443,11 @@ Deseo obtener un puesto de backend JavaScript  donde mi experiencia única y cre
 		<div class="footer-wrapper">
 			<p class="footer-text">
 	
-				<a title="gitHub" href="https://github.com/ingalbert021" target="_blank"><img class="logo-footer" src="assets/img/git.jpg" width="80px" alt="GitHub"/></a>
+				<a title="gitHub" href="https://github.com/ingalbert021" target="_blank"><img class="logo-footer" src="./assets/img/git.jpg" width="80px" alt="GitHub"/></a>
 
 
 
-	<a title="whatsapp" href="https://wa.link/gb6xju" target="_blank"><img class="logo-footer" src="assets/img/wat.png" width="60px" alt="whatsapp"/></a>
+	<a title="whatsapp" href="https://wa.link/gb6xju" target="_blank"><img class="logo-footer" src="./assets/img/wat.png" width="60px" alt="whatsapp"/></a>
 			</p>
 			<p>
 				©www.IngalbertoDelacruz.com
