@@ -149,7 +149,8 @@ font-family: 'Space Grotesk', sans-serif;
 	border-radius: 50%;
 }
 .cover-photo-container{
-	margin-bottom:40px;
+	margin-bottom:25px;
+	margin-top:30px;
 }
 .cover-text{
 	background-color: rgba(70,203,253,0.7);
