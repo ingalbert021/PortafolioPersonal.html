@@ -60,33 +60,26 @@
 </head>
 <body>
 <!--esta es la seccion del header--->
-
-<div class="topnav" id="myTopnav">
-	<div class="header-logo">
+<nav class="navbar navbar-expand-lg overflow-auto navbar-light bg-dark">
+  <div class="container-fluid">
+  <div class="header-logo">
   <a href="#home" class="active"><img src="./assets/img/logo.png" alt="logo-portafolio" height="45px"/></a>
 </div>
-  <a href="#contacto">Contacto</a>
-  <a href="#habilidades">Habilidades</a>
-  <a href="#sobreMi">Sobre Mi</a>
-  <a href="#Portafolio">Portafolio</a>
-  <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-*/-->
-  <script>
-  	
- /*menu reponsive
- function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-*/
-  </script>
-</div>
+    
+    <div class="collapse navbar-collapse" >
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+           	<a href="#contacto">Contacto</a>
+			  <a href="#habilidades">Habilidades</a>
+			  <a href="#sobreMi">Sobre Mi</a>
+			  <a href="#Portafolio">Portafolio</a>
+        </li>
+  
+      </ul>
+     
+    </div>
+  </div>
+</nav>
 
 	
 	<section class="cover">
