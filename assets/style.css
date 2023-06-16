@@ -19,8 +19,7 @@ h1{
 	color: white;
 }
 .cover {
-	width: 100%;
-	height: 100vh;
+	
 	background-image: linear-gradient(rgba(5, 10, 5, 0.00), rgba(90, 40, 90, 0.80)), url(./img/fondo.jfif);
 	background-size: cover;
 	background-position: center;
@@ -143,7 +142,7 @@ h1{
 }
 
 
-
+/*
 .title-underline{
 	color: #606068;
 	text-align: center;
@@ -151,20 +150,13 @@ h1{
 	text-transform: uppercase;
 	text-decoration: underline;
 	
-}
+}*/
 
 .clearfix{
     clear:both;
     float:none;
 }
-.title-underline span{
-	display: inline-block;
-	border-bottom: 8px solid #46cbfd;
-	padding-left: 10px;
-	padding-right: 10px; 
-	margin-top: 7px;
-	font-family: "Futura", serif;
-}
+
 
 /*javascript effect*/
 .ml6 {
@@ -203,47 +195,9 @@ h1{
 /*slider*/
 
 
-.skills-wrapper{
 
-max-width: 9000px;
 
-list-style: none;
-margin-right: 18px;
 
-}
-
-.skills-text{
-	text-transform: uppercase;
-	color: #606060;
-	font-weight: 700;
-	margin: 10px 0;
-	padding: 10px 0;
-	overflow: hidden;
-}
-
-.skills-name{
-	float: left;
-}
-.skills-name img {
-	margin-left: 5px;
-}
-
-.skills-score{
-	float: right;
-}
-
-.skills-bar{
-	width: 100%;
-	height: 30px;
-	background: #9e9e9e;
-	margin-left: 5px;
-}
-
-.skills-bar-fulling{
-	background-color: #765bf6;
-	height: 30px;
-	display: inline-block;
-}
 
 
 
@@ -317,11 +271,6 @@ margin-right: 18px;
 
 }
 
-.text-center .btn{
-	font-size: 11px;
- margin-left: 0px;
- padding: 7px;
-}
 
 a strong{
 	font-size: 13px;
@@ -329,6 +278,15 @@ a strong{
 
 
 	}
+
+
+	
+@media (max-width: 622px){
+	.mapouter{
+		display:none;
+	}
+
+}
 
 
 
@@ -361,7 +319,7 @@ a strong{
 	
 	}
 }
-
+/*
 @media (max-width: 430px){
 	.cover-description{
 		font-size: 14px;
@@ -371,7 +329,7 @@ a strong{
 		font-size: 14px;
 	}
 }
-
+*/
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */

@@ -12,7 +12,7 @@ document.getElementById('form')
    btn.value = 'Sending...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_55v008d';
+   const templateID = 'template_ngeww9j';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -22,7 +22,7 @@ document.getElementById('form')
       btn.value = 'Enviado';
       Swal.fire(
   'Enviado correctamente!',
-  'Preciona!',
+  'Presiona!',
   'success'
 )
     }, (err) => {
