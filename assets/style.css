@@ -276,13 +276,7 @@ a strong{
 	}
 
 
-	
-@media (max-width: 622px){
-	.mapouter{
-		display:none;
-	}
 
-}
 
 
 
@@ -307,6 +301,23 @@ a strong{
 }
 
 }
+
+/*cards*/
+@media (max-width: 1141px){
+
+	.mapouter{
+		display:none;
+
+	}
+}
+/*contenido
+@media (max-width: 1141px){
+
+	.mapouter{
+		display:none;
+
+	}
+}*/
 
 @media (max-width: 579px){
 	.bg-image{

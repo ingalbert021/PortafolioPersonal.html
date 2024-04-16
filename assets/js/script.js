@@ -2,7 +2,11 @@
 "use strict"
 window.addEventListener("load", function (){
 
-/*Email funcion*/
+/*Email funcion
+
+El nombre de la api es emailjs
+*/
+
 const btn = document.getElementById('button');
 
 document.getElementById('form')
@@ -12,7 +16,7 @@ document.getElementById('form')
    btn.value = 'Sending...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_ngeww9j';
+   const templateID = 'template_mdg5shh';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
