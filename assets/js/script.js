@@ -13,10 +13,10 @@ document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   btn.value = 'Sending...';
+   btn.value = 'Enviando...';
 
-   const serviceID = 'default_service';
-   const templateID = 'template_mdg5shh';
+   const serviceID = 'service_htmbqdt';
+   const templateID = 'template_spo2jwc';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
@@ -27,7 +27,7 @@ document.getElementById('form')
       Swal.fire(
   'Enviado correctamente!',
   'Presiona!',
-  'success'
+  'Listo'
 )
     }, (err) => {
       btn.value = 'Send Email';
